@@ -1,7 +1,30 @@
+local ValidConfig = [[
+getgenv().VanqArsenalGunCustomizerFree = {
+    ["Version"] = {
+        1;
+        "8UtIp";
+    };
+    --% in how much to decrease by
+    ["Automatics"] = {
+        Recoil = 10;
+        Spread = 10;
+        FireRate = 10;
+        ReloadTime = 10;
+    };
+    ["Other"] = {
+        Recoil = 10;
+        Spread = 10;
+        FireRate = 10;
+        ReloadTime = 10;
+    };
+}
+]]
+
 return {
   1;
   "8UtIp";
   ["Errors"] = {
   
   };
+  ValidConfig;
 }
